@@ -38,15 +38,15 @@ zeroize = "1"
 curv = { package = "curv-kzen", git="https://github.com/EfficientPrivacyTech/curv.git", rev = "fcb7ac3" }
 # curv = { package = "curv-kzen", git="https://github.com/ZenGo-X/curv.git", rev="44537a74", default-features=false, features=["num-bigint"]}
 #centipede = { version = "0.3", default-features = false }
-centipede = { package = "centipede", path = "https://github.com/EfficientPrivacyTech/centipede", default-features = false }
+centipede = { package = "centipede", git = "https://github.com/EfficientPrivacyTech/centipede.git", default-features = false }
 #zk-paillier = { version = "0.4.3", default-features = false }
-zk-paillier = { package = "zk-paillier", path = "https://github.com/EfficientPrivacyTech/zk-paillier", default-features = false}
+zk-paillier = { package = "zk-paillier", git = "https://github.com/EfficientPrivacyTech/zk-paillier.git", default-features = false}
 round-based = { version = "0.1.4", features = [] }
 thiserror = "1.0.23"
 derivative = "2"
 sha2 = "0.9"
 
-paillier = { package = "kzen-paillier", path = "https://github.com/EfficientPrivacyTech/rust-paillier", default-features = false}
+paillier = { package = "kzen-paillier", git = "https://github.com/EfficientPrivacyTech/rust-paillier.git", default-features = false}
 
 # [dependencies.paillier]
 # version = "0.4.2"
